@@ -1,0 +1,16 @@
+{
+    "name": "create-fornax",
+    "type": "module",
+    "scripts": {
+      "dev": "fnx dev",
+      "build": "fnx build",
+      "start": "fnx start"
+    },
+    "devDependencies": {
+      "@types/bun": "latest"
+    },
+    "peerDependencies": {
+      "typescript": "^5.0.0",
+      "fornaxjs": "latest"
+    }
+  }
