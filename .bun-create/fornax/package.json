@@ -1,5 +1,5 @@
 {
-    "name": "create-fornax",
+    "name": "fornax",
     "type": "module",
     "scripts": {
       "dev": "fnx dev",
