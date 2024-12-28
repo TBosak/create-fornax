@@ -1,5 +1,17 @@
 {
     "name": "create-fornax",
-    "version": "1.0.1",
-    "description": "Project schematics for Fornax",
-}
+    "version": "1.0.2",
+    "type": "module",
+    "scripts": {
+      "dev": "fnx dev",
+      "build": "fnx build",
+      "start": "fnx start"
+    },
+    "devDependencies": {
+      "@types/bun": "latest"
+    },
+    "peerDependencies": {
+      "typescript": "^5.0.0",
+      "fornaxjs": "latest"
+    }
+  }
